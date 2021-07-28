@@ -9,6 +9,7 @@
     
     font-family: "Exo 2";
     text-align: center;
+    color:white;
 }
 
 .section-programm {
@@ -39,6 +40,7 @@ body {
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(180deg, #4E54C8 0%, #8F94FB 100%), #4E54C8;
 }
 
 .header{
@@ -81,4 +83,13 @@ body {
     width: 100%;
     height: 15rem;
     margin-bottom: 1.875rem;
+    resize: none;
+    text-align: left;
+    color: black;
+    font-size: 1.125rem;
+    color: #B1AFAF;
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.375rem;
 }
