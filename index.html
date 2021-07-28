@@ -22,8 +22,15 @@
         <main class="main-form">
             <form method="POST" action="" class="form">
                 <textarea name="Input text" id="input-text" placeholder="Input text ..."></textarea>
-                <div></div>
-                <button type="submit">Check</button>
+                <div class="action-in-form">
+                    <select name="select" id="select">
+                        <option value="Uniqueness" selected class="Uniqueness">Uniqueness</option>
+                        <option value="Repetition" class="Repetition">Repetition</option>
+                        <option value="Misprint" class="Misprint">Misprint</option>
+                        <option value="Validation" class="Validation">Validation</option>
+                    </select>
+                    <button type="submit" id="button">Check</button>
+                </div>                
             </form>
             <div id="img" class="image">
                 <!--img src="./src/brain.svg" alt="brain"-->
@@ -59,11 +66,11 @@
         </footer>
     </section>
     
-    <script src="src/partical.js" defer></script>
-    <script src="src/app.js" defer></script>
+    <script src="./src/particles.js" defer></script>
+    <script src="./src/app.js" defer></script>
 
-    <script src="src/select.js" async></script>
-    <script src="src/serverRequest.js" async></script>
+    <script src="./src/select.js" async></script>
+    <script src="./src/serverRequest.js" async></script>
 
 </body>
 </html>
