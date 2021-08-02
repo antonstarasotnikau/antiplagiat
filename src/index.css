@@ -38,11 +38,12 @@
 
 
 body {
-    position: absolute;
+   /* position: absolute;*/
     box-sizing: border-box;
     top: 0;
     bottom: 0;
     width: 100%;
+     background: linear-gradient(90deg, #4E54C8 0%, #8F94FB 100%), #4E54C8;
 }
 
 
